@@ -42,4 +42,29 @@ console.log(typeof anotherid);
 
 /*------------------------Ecma link-------------------------- */
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3          
+// https://262.ecma-international.org/5.1/#sec-11.4.3 
+
+
+
+
+
+/*****************************************************************************************************************************/
+// stack memory(primitive)              heap memory(nonprimitive)
+
+
+let myName = "gauri@.com"
+let sName = myName
+sName = "Adekar@.com"
+console.log(myName);
+console.log(sName);
+
+
+let userOne = {
+    email: "Gauri@.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email="Adekar@.com"
+
+console.log(userOne);
+console.log(userTwo);

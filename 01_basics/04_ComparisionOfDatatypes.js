@@ -19,3 +19,6 @@
 
 // === strict check  ------------ not only checks the data also checks the datatype
 console.log("2" === 2);
+
+
+
