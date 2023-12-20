@@ -6,7 +6,7 @@
   // object literals
   // 2) const JsUer = {}
 
-
+  // object literals
   const mySym = Symbol("key1")
   const JsUer = {
     name:"Gauri",
