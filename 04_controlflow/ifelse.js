@@ -62,4 +62,3 @@ if(loginFromRmail || loginfromGoogle)
     console.log("just logged in");
 }
 
-
